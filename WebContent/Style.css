@@ -1,0 +1,355 @@
+<style type="text/css">
+			body
+			{
+				margin:0;
+				padding:0;
+				font-family:Tahoma;
+			}
+			#container
+			{
+				/*min-height:100%;*/
+				float:left;
+				width:100%;
+				
+			}
+			.divClass
+			{
+				float:left;
+				width:100%;
+			}
+			#header
+			{
+				height:110px;
+				background-color:#152935;
+				background-image: url("images/index.jpg");
+				background-repeat:no-repeat;
+				background-position:right top;
+			}
+			#content
+			{
+				/*min-height:600px;*/
+				background-color:#fff;
+				float:left;
+				width:100%;
+			}
+			#footer
+			{
+				float:left;
+				height:50px;
+				margin-top:0.3cm;
+				background-color:rgb(0, 88, 154);
+				width:100%;
+				
+			 }
+			#headMain
+			{
+				font-size:60px;
+				font-weight:lighter;
+				color:rgb(255,255,255);
+				float:left;
+				margin-left:1%;
+			}
+			#copyRightText
+			{
+			}
+			.label
+			{
+				color:black;
+				font-size:12px;
+				float:left;
+			}
+			#ddlPM
+			{
+				width:140px;
+				/*height:30px;*/
+			}
+			.footerText
+			{
+				color:rgb(255,255,255);
+				font-size:12px;
+				margin-top:5px;
+				float:right;
+				width:100%;
+				text-align:right;
+				
+			}
+			.footerTexthome
+			{
+				color:rgb(255,255,255);
+				font-size:12px;
+				margin-top:5px;
+				float:right;
+				width:100%;
+				text-align:right;
+				
+			}
+			.footerText a
+			{
+				color:rgb(153,217,234);
+				cursor:pointer;
+			}
+			.footerText a:hover
+			{
+				text-decoration:underline;
+			}
+			.info
+			{
+				font-size:11px;
+				color:#000;
+			}
+			.textBox
+			{
+				//background-color:rgb(204,255,255);
+			}
+			.reportHead
+			{
+				background-color:rgb(255,217,102);
+			}
+			#resouceInfo
+			{
+				margin-top:20px;
+				border:1px solid rgb(62,23,74); 
+			}
+			#resouceInfo th
+			{
+				font-weight:lighter;
+				text-align:center;
+				min-width:144px;
+			}
+			#extraInfoVerticalTable
+			{
+				width:100%; 
+				float:left; 
+				border:none; 
+				border-collapse:collapse; 
+				margin-left:1%;
+				height:35px;
+				
+			}
+			#divCentralInfo
+			{
+				width:98%; 
+				float:left; 
+				margin-left:1%; 
+				margin-top:1%;
+				border-left:2px solid #888; 
+				border-bottom:2px solid #888; 
+				border-top:1px solid #888; 
+				border-right:1px solid #888; 
+				border-radius:10px;
+				padding-top:5px;
+				/*height:400px;*/
+			}
+			#tableAppAllVar th
+			{
+				font-size:13px;
+				border: 1px solid black;
+			}
+			#tableAppAllVar
+			{
+				width:98%; 
+				float:left;
+                margin:10px 0 10px 1%;
+				border:1px solid rgb(0,162,232);
+				border-collapse:collapse;
+			}
+			#tableAppAllVar tr
+			{
+				font-size:12px;
+			}
+			#tableAppAllVar td
+			{
+				border:1px solid rgb(0,162,232);
+			}
+			#WIDescDetails td
+			{
+			    border:1px solid rgb(62,23,74); 
+			}
+			#WIDescDetails
+			{
+			    width: 98%; 
+			    margin-left: 1%; 
+			    float: left; 
+			    margin-top: 10px;
+			    font-size: 11px; 
+                border:1px solid rgb(62,23,74); 
+                border-collapse:collapse;
+                margin-bottom:10px;
+                background-color:rgb(188,288,88);
+			}
+			.yCol
+			{
+			    background-color:rgb(255,242,0);
+			}
+			.newWhite
+			{
+			    background-color:rgb(255,255,255);
+			}
+			/* .box
+			{
+				display : none;
+			} */
+			#footerHome
+			{
+				float:left;
+				height:100%;
+				background-color:#152935;
+				width:100%;
+
+				
+			 }
+			 .loginSubmit
+			 {
+			 	background-color: #152935;
+			 	color:#fff;
+			 	border-radius: 5px;
+			 	border-color:#0072aa;
+			 	padding:5px 25px;
+			 	font-size:14px;
+			 }
+			#tableAppAllVar tbody tr td input{
+				width:96%;
+				
+			}
+			#addResource{
+				margin:15px 0px 0px 30px;
+				float:left;
+			}
+			#removeResource{
+				margin:10px 0px 0px 30px;
+				float:left;
+			}
+			.popupTable
+			{
+				border:1px solid #000;
+				border-collapse:collapse;
+				margin-top:10px;
+			}
+			.popupTable tr td
+			{
+				border:1px solid #000;
+				border-collapse:collapse;
+				min-Width:119px;
+				text-align:center;
+			}
+			.resourceDet td
+			{
+				font-size:12px;
+			}
+			#cboxContent
+			{
+				height:auto !important;
+			}
+			#addingR
+			{
+				margin: 1% 0 0 2%;
+				float:left;
+			}
+			.inline 
+			{
+				margin:1% 0 0 2% ;
+				float:left;
+			}
+			.newSection
+			{
+				clear: left;
+    			float: left;
+    			margin: 10px 0 0 90px;
+    			width: 175px;
+    			display:none;
+			}
+			.newSection span
+			{
+				color:#888888;
+				font-size:14px;
+				float:left;
+				
+			}
+			.newSection select
+			{
+				margin-bottom:15px;
+				float:left;
+				clear:both;
+				width:100%;
+			}
+			.newSection span input[type="text"]
+			{
+				width:100%;
+			}
+			#Username
+			{
+				margin-left: 10px;
+			}
+			#Password
+			{
+				margin-left: 27px;
+			}
+			html {
+                 position: relative;
+                min-height: 100%;
+                 }
+         
+          footer {
+             position: absolute;
+           left: 0;
+          bottom: 0;
+         height: 100px;
+         width: 100%;
+            }
+            
+            #resouceInfoContainer
+            {
+            	display:block;
+            	overflow-x:auto;
+            	position:relative;
+            }
+            #resouceDetails1 td input
+            {
+            	width:50px;
+            }
+            #resouceDetails2 tr
+            {
+            	height:33px;
+            }
+            #resouceDetails2 td input
+            {
+            	width:50px;
+            	margin:5px 0;
+            	clear:both;
+            	
+            }
+            #resouceDetails2 tr td center{
+            width:122px;
+            }
+            #resouceDetails2 td
+            {
+            	height:33px;
+            	position:relative;
+            }
+            #resouceDetails1 tr
+            {
+            	height:33px;
+            }
+            #resouceDetails1 tr.shown
+            {
+            	height:66px;
+            }
+            body.loading{
+            	overflow:hidden;
+            	
+            	
+            }
+            body.loading .loaderimage{
+             display:block;
+            }
+            .loaderimage{
+            	display:none;
+            	position:fixed;
+            	z-index:2000;
+            	top:0px;
+            	left:0px;
+            	height:100%;
+            	width:100%;
+            	background:rgba( 255, 255, 255, .8 ) url('images/Please-Wait-For-A-Moment-m18.gif') 50% 50% no-repeat;
+            }
+	</style>
